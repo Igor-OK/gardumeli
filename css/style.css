@@ -15,7 +15,7 @@ nav .brand-logo {
   margin-top:70px;
 }
 
-nav{
+.av{
   position: fixed;
   z-index: 555;
   top: 0;
