@@ -11,6 +11,16 @@ nav .brand-logo {
   color: #444;
 }
 
+#index-banner{
+  margin-top:70px;
+}
+
+nav{
+  position: fixed;
+  z-index: 555;
+  top: 0;
+}
+
 p {
   line-height: 2rem;
 }
@@ -20,7 +30,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 480px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -61,6 +71,21 @@ footer.page-footer {
                1px 1px 1em black;
 
 }
+.mar{
+  margin-top: 30px;
+}
+.main-header{
+  margin-top: 110px;
+}
+.gallery{
+  margin-top: 30px;
+}
+.material-placeholder{
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+
 
 /* pictures  */
 
@@ -69,7 +94,8 @@ footer.page-footer {
 }
 
 .items{
-  width: 100%;
+  max-width: 55%;
+  margin-top: 30px;
 }
 .ready{
   color:black;
@@ -78,6 +104,9 @@ footer.page-footer {
 
 
 @media (max-width: 600px) {
+  .parallax-container {
+  min-height: 380px;
+  }
   .main-header{
     font-size: 26px!important;
     margin-top: 50px;
