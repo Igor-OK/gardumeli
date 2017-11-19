@@ -12,13 +12,11 @@ nav .brand-logo {
 }
 
 #index-banner{
-  margin-top:70px;
+  margin-top:5px;
 }
 
-.av{
-  position: fixed;
-  z-index: 555;
-  top: 0;
+nav {
+  z-index: 1300;
 }
 
 p {
@@ -35,9 +33,12 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
+.colour-special{
+
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -84,8 +85,17 @@ footer.page-footer {
   margin-top: 40px;
   margin-bottom: 30px;
 }
-
-
+.telephone{
+  margin-top: 55px;
+  margin-bottom: 55px;
+}
+.cerf{
+  margin-top:55px;
+  margin-bottom: 55px
+}
+#sidenav-overlay{
+  z-index: 333;
+}
 
 /* pictures  */
 
@@ -109,8 +119,12 @@ footer.page-footer {
   }
   .main-header{
     font-size: 26px!important;
-    margin-top: 50px;
+    margin-top: 55px;
   }
+  #index-banner img{
+  
+  }
+
   img.items{
     width:80%;
   }
@@ -120,7 +134,7 @@ footer.page-footer {
 
   }
   .long h4{
-    margin-top: -210px;
+    margin-top: -190px;
     font-size: 23px;
   }
   .answer{
@@ -132,4 +146,5 @@ footer.page-footer {
     line-height: 1;
     font-size: 17px;
   }
+
 }
