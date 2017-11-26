@@ -110,6 +110,11 @@ footer.page-footer {
 .ready{
   color:black;
 }
+.equal{
+  margin:10px auto;
+  width:70%;
+  text-align: center;
+}
 
 
 
