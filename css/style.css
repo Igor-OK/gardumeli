@@ -31,7 +31,10 @@ p {
   min-height: 480px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255,255,255, 1);
+  line-height: 1.2!important;
+  font-weight:777!important;
+  font-size: 1.3rem;
 }
 .parallax-container .section {
   width: 100%;
